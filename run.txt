@@ -1,0 +1,18 @@
+# clone repo
+git clone git@github.com/Significant-Gravitas/AutoGPT.git
+git clone git@github.com:seccmd/AutoGPT_CN.git
+cp AutoGPT/ AutoGPT_CN/
+
+# translate en to cn
+python3 main.py AutoGPT_CN/
+
+# debug docs
+cd AutoGPT_CN/docs/
+mkdocs serve -a 0.0.0.0:8080
+
+# deploy
+git add --all && git commit -m 'add AutoGPT' && git push
+mkdocs gh-deploy
+
+# Web
+https://www.seccmd.net/AutoGPT_CN/
