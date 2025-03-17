@@ -176,7 +176,7 @@ extra:
 extra:
   analytics:
     provider: google
-    property: G-XKPNKB9XG6
+    property: G-3CKX8MZFEY
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
@@ -184,3 +184,4 @@ extra_javascript:
   - _javascript/mathjax.js
   - https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9718108884365672
